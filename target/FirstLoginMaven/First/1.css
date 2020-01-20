@@ -1,0 +1,12 @@
+﻿body{text-align:center;background-color:white} /*选中body加样式*/
+/*body{background-image:url('b.jpg')}*/
+h1{background:blue}   /*选中h1加样式*/
+p{background:blue}
+/*form{border-top:1px solid #000}*/
+ol li,ul li{               
+text-align:left;
+color:green
+}
+/*img{display:block}*/
+#学生,#詹姆斯{color:red}   /*id=“学生”和id=“詹姆斯”*/
+.白领{background:blue;color:red}  /*class=“白领”*/

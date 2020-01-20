@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>NBA全明星投票NBA全明星投票</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+		<style type="text/css">label{<!--color:blue-->}</style><!--内部样式--> 
+		<link type="text/css" rel="stylesheet" href="1.css">
+			<script>
+		  function login(){
+	         var myAccount=document.getElementById("account").value;
+	         var myPwd=document.getElementById("password").value;
+			if(myAccount!="kuangchao"&&myPwd!="123456"){
+			   alert("账号或者密码错误！");
+			}
+			else{
+			   alert("登录成功！");
+			}
+         }
+		</script>
+	</head>
+	<body>
+	<a href="https://china.nba.com/" target=_blank><img class="top" src="vote.png"/> 
+	</a>
+	<h1 style="color:red">投票开始啦！<h1>  <!--css行内样式-->
+	<div>
+	<form>
+	  <label>账号</label>
+	  <input type="text" name="账号" id="account"></input>
+	  <label>密码</label>
+	  <input type="password" name="密码" id="password"></input>
+	  <input type="submit" onclick="login()" name="提交" id="提交"></input>
+	</form>
+	</div>
+	<p>
+	    <h2>详情可以访问NBA官网
+		
+		    <a href="https://china.nba.com/" target=_blank>NBA中国官网
+			
+			</a>
+		</h2>
+	</p>
+	<h6></h6>
+	<h3>请选择您的职业：</h3>
+	<form>
+	    <input type="radio" name="职业" value="学生"/><label id="学生">学生</label>
+		<input type="radio" name="职业" value="白领"/><label class="白领">白领</label>
+		<input type="radio" name="职业" value="自由职业"/><label>自由职业</label>
+		<br/>
+		<label>请提交</label><input type="submit" name="职业提交">
+	</form>
+	<h3>请选择您的年龄：</h3>
+	<select>
+	    <option >小于18</option>
+		<option>18-25</option>
+		<option>26-30</option>
+		<option>30+</option>
+	</select>
+	<input type="submit" name="年龄提交"/>
+	<br/>
+	<h3>请在这里提交最喜欢的球星名字：</h3>
+	<form>
+	   <label>输入最喜欢的球星名字</label><input type="text" name="请输入最喜欢的球星"/>
+	   <input type="submit" name="最喜欢球星提交"/>
+	</form>
+	<br/>
+	<h3>请选择您最喜欢的球星</h3>
+	<form>
+	    <input type="checkbox"  name="superstar" value="詹姆斯"/><label id="詹姆斯">詹姆斯</label><img src="zms.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="字母哥"/><label>字母哥</label><img src="zimuge.png" width=70 height=50/>
+	    <input type="checkbox"  name="superstar" value="浓眉哥"/><label>浓眉哥</label><img src="浓眉.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="77"/><label>77</label><img src="dongqiqi.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="杨少侠"/><label>杨少侠</label><img src="yang.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="哈登"/><label>哈登</label><img src="hadeng.png" width=70 height=50/>
+		<br/>
+		<input type="checkbox"  name="superstar" value="大帝"/><label>大帝</label><img src="enbide.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="保罗"/><label>保罗</label><img src="baoluo.png" width=70 height=50/>
+	    <input type="checkbox"  name="superstar" value="罗斯"/><label>罗斯</label><img src="rose.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="火花"/><label>火花</label><img src="houhuade.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="乔治"/><label>乔治</label><img src="qiaozhi.png" width=70 height=50/>
+		<input type="checkbox"  name="superstar" value="卡哇伊"/><label>卡哇伊</label><img src="kawyi.png" width=70 height=50/>
+		<br/>
+		<input type="submit" name="全明星喜欢球星多选提交">
+	</form>
+	<h3>球星数据</h3>
+	<iframe src=playerdata.html width=500 height=100/></iframe>
+	<br/>
+	<ol>
+		<li>雄鹿</li>
+		<li>热火</li>
+		<li>凯尔特人</li>
+		<li>猛龙</li>
+		<li>76人</li>
+		<li>步行者</li>
+		<li>魔术</li>
+		<li>篮网</li>
+	</ol>
+	<ol>
+		<li>雄鹿1</li>
+		<li>热火1</li>
+		<li>凯尔特人1</li>
+		<li>猛龙1</li>
+		<li>76人1</li>
+		<li>步行者1</li>
+		<li>魔术1</li>
+		<li>篮网1</li>
+	</ol>
+	<br/>
+	<div><img src="di.png"/></div>
+	</body>
+</html>
+

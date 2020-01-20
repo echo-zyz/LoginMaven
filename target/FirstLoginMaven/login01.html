@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录01界面</title>
+<script src="jquery.min.js" charset="utf-8"></script>
+<script src="AjaxLogin.js" charset="UTF-8"></script>
+</head>
+<body>
+	<div id="logined">这里显示登录提交信息</div>
+	<div>
+	<form id="formData">
+		<div>
+			<input type="text" name="account"
+				placeholder="please input your account"></input> <br /> <input
+				type="password" name="password"
+				placeholder="please input your password"></input>
+		</div>
+		<div id="submit">
+			<input type="submit" value="请登录"></input>
+		</div>
+		<input type="button" onclick="AjaxLogin()" value="ajaxlogin"></input>
+	</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<!--设计一个登录模块，在输入框进行输入时，通过js在控制台输出信息。-->
+击登录按钮时，弹出一个alert提示。
+<html>
+<head>
+  <title>登录界面</title>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+</head>
+<body>
+   <h3>在这里登录</h3>
+   <form>
+       <label>账号</label><input type="text" name="账号" id="账号" ></input>
+	   <br/>
+	   <label>密码</label><input type="password" name="密码" id="密码" ></input>
+	   <br/>
+	   <input type="submit" onclick="myFunction()" name="提交" id="提交"></input>
+	   <button type="button" onclick="myFunction()">登录</button>
+	   <script>
+	     function myFunction(){
+		      var acc=document.getElementById("账号").value;
+			  var pwd=document.getElementById("密码").value;
+			if(acc!="kc"&&pwd!="kc"){
+			   alert("账号或者密码错误！");
+			}
+			else{
+			   alert("登录成功！");
+			}
+			//window.alert(“账号:”+document.getElementById("账号").value);
+		    
+		  }
+	   </script>
+	   
+   </form>
+</body>
+</html>
